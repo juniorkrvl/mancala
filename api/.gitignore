@@ -33,3 +33,4 @@ mvnw.cmd
 *.ipr
 *.iws
 out/
+bin/
