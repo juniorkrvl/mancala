@@ -52,7 +52,6 @@ function click(event) {
   flex-wrap: wrap;
   flex-direction: row;
   position: relative;
-  /* overflow: hidden; */
   top: 0;
   left: 0;
   bottom: 0;

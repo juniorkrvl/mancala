@@ -20,13 +20,16 @@ const style = computed(() => {
       : "radial-gradient(circle,rgba(59, 59, 232, 1) 0%,rgba(9, 9, 121, 1) 100%)";
 
   // Calculate the radius and angle for this stone
-  const radius = Math.sqrt(props.id / props.totalStonesInPit) * 40; // This will give a number between 0 and 40
-  const angle = (props.id / props.totalStonesInPit) * 2 * Math.PI; // This will distribute the stones evenly around the circle
+  // This will give a number between 0 and 40
+  const radius = Math.sqrt(props.id / props.totalStonesInPit) * 40; 
+  // This will distribute the stones evenly around the circle
+  const angle = (props.id / props.totalStonesInPit) * 2 * Math.PI; 
 
   let left = center + radius * Math.cos(angle);
   let top = center + radius * Math.sin(angle);
 
-  var randomOffset = (Math.random() - 0.5) * 20; // This will give a number between -5 and 5
+  // This will give a number between -5 and 5
+  var randomOffset = (Math.random() - 0.5) * 20; 
   left += randomOffset;
   top += randomOffset;
 

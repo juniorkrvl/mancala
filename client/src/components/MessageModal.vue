@@ -1,9 +1,7 @@
 <template>
-  <div v-if="open" id="winning-modal" style="visibility: visible">
-    <div id="winning-message">
+  <div v-if="open" id="modal" style="visibility: visible">
+    <div id="message">
       <slot></slot>
-      <!-- <p id="winner">Player 2 is the winner!</p>
-      <p>Would you like to play again?</p> -->
       <div v-if="yesNo" class="buttons">
         <button class="button yes" @click="$emit('yes', $event)">Yes</button>
         <button class="button no" @click="$emit('no', $event)">No</button>
@@ -23,7 +21,7 @@ defineProps({
 </script>
 
 <style scoped>
-#winning-modal {
+#modal {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -34,7 +32,7 @@ defineProps({
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-#winning-message {
+#message {
   width: 500px;
   margin: 100px auto;
   background-color: #fff;

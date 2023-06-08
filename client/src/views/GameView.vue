@@ -155,58 +155,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-/*used same rules laid out here: https://raventools.com/blog/create-a-modal-dialog-using-css-and-javascript/*/
-#winning-message {
-  width: 300px;
-  margin: 100px auto;
-  background-color: #fff;
-  border: 1px solid #000;
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  font-family: "Tex Gyre Adventor", sans-serif;
-}
-
-#instructions {
-  width: 1000px;
-  margin: 100px auto;
-  background-color: #fff;
-  border: 1px solid #000;
-  padding: 15px;
-  text-align: left;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  font-family: "Tex Gyre Adventor", sans-serif;
-  letter-spacing: 1px;
-  display: flex;
-  flex-direction: column;
-}
-
-/*used same rules laid out here: https://raventools.com/blog/create-a-modal-dialog-using-css-and-javascript/*/
-#winning-modal {
-  visibility: hidden;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  z-index: 5000;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-#instructions-modal {
-  visibility: hidden;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  z-index: 5000;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
 .modal-buttons {
   display: flex;
   justify-content: center;
