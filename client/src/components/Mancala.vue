@@ -39,8 +39,7 @@ const showStoneAmount = ref(false);
   padding: 15px;
   box-sizing: border-box;
   border-radius: 40px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/wooden-board.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/wooden-board.jpg");
   text-transform: uppercase;
   display: flex;
   justify-content: center;

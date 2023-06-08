@@ -151,8 +151,7 @@ main > div {
   position: relative;
   margin: 10px;
   box-sizing: border-box;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/wooden-board.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/wooden-board.jpg");
   padding: 15px;
   z-index: 1;
 }
