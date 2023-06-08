@@ -4,7 +4,6 @@ import com.bol.mancala.domain.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.Optional;
 import java.util.UUID;
 

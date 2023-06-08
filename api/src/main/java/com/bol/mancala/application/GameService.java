@@ -3,8 +3,10 @@ package com.bol.mancala.application;
 import com.bol.mancala.domain.*;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
+/***
+ * The GameService orchestrates the creation and
+ * persistence of game matches
+ */
 @Service
 public class GameService {
 

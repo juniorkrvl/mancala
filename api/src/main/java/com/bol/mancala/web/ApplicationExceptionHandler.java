@@ -1,7 +1,6 @@
 package com.bol.mancala.web;
 
 import com.bol.mancala.domain.*;
-import com.bol.mancala.web.ErrorResponse;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

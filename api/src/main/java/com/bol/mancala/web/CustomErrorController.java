@@ -1,6 +1,5 @@
 package com.bol.mancala.web;
 
-import com.bol.mancala.web.ErrorResponse;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.boot.web.servlet.error.ErrorController;

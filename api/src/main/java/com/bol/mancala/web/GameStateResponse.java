@@ -11,7 +11,7 @@ public class GameStateResponse {
     private final int secondPlayerMancalaPosition;
     private final boolean isGameOver;
 
-    public GameStateResponse (
+    private GameStateResponse (
         String gameId,
         int currentPlayerId,
         int[] pits,
