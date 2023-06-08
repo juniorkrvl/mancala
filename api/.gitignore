@@ -1,0 +1,35 @@
+# Compiled class file
+*.class
+
+# Log files
+log/
+*.log
+
+# Spring Boot specific
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+.vscode/
+
+# Gradle files
+.gradle/
+#gradle
+build/
+
+# Maven files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ files
+*.iml
+*.ipr
+*.iws
+out/
