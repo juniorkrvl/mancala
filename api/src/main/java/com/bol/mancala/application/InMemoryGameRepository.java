@@ -1,14 +1,14 @@
 package com.bol.mancala.application;
 
 import com.bol.mancala.domain.*;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Component
+@Repository
 public class InMemoryGameRepository implements GameRepository {
     private final Map<UUID, Game> storage = new ConcurrentHashMap<>();
 
