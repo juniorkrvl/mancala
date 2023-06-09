@@ -24,6 +24,8 @@ The project is divided in three main parts
 
 The fundamental principle behind these layers is to regulate dependency directions.
 
+(Web) --> (Application) --> (Domain)
+
 As demonstrated in the hexagonal architecture model, the **Domain** don't have any external dependencies. It does not know about any other part of the system and it exclusively focuses on modelling business problems.
 
 The **Application** knows about the domain and orchestrates the domain objects with infrastructure to store them in the persistence layer.
